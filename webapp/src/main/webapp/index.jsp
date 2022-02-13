@@ -4,7 +4,8 @@
     <p>Please fill in this form to create an account.</p>
     <hr>
      
-    <label for="Name"><b>Enter Username	:5em;</b></label>
+    <label for="Name"><b>Enter Username</b></label>
+	<div tabindex="0">Tabbable due to tabindex.</div>
     <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
     <br>
 
